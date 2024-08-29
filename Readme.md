@@ -19,7 +19,7 @@ cp src/main.rs src/bin/worker.rs
 Install rust dependencies:
 ```
 cargo add flate2
-cargo add reqwest
+cargo add request
 cargo add tokio --features macros,rt-multi-thread
 cargo add clap --features derive
 cargo add autometrics --features prometheus-exporter
